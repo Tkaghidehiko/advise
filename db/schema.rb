@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2019_03_19_141120) do
     t.datetime "last_sign_in_at"
     t.string "current_sign_in_ip"
     t.string "last_sign_in_ip"
-    t.boolean "admin"
+    t.boolean "admin", default: false
     t.string "name"
     t.integer "sex"
     t.date "birthday"
